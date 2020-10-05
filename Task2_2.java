@@ -1,7 +1,5 @@
 package Project2_2;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 
 public class Main {
     int x;
