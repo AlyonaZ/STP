@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Rec {
+    public static void main(String[] args){
+        int n = 7;
+        System.out.println(Task1(n, n-1));
+    }
+
+    static int Task1(int n, int k){
+        if (n == 1){
+            return n - k;
+        }
+        System.out.println(n-k);
+        return Task1(n-1, k-2);
+    }
